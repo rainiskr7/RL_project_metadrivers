@@ -269,6 +269,8 @@ python train_curriculum.py --start_stage 6 --end_stage 6
 ```
 
 ### 평가
+######각 Stage에 대한 학습.zip파일이 존재해야함.->제출버전은 6단계만 제출########## 
+
 ```bash
 # 전체 평가 (Stage 1-6)
 python evaluate_curriculum.py

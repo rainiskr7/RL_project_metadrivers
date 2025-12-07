@@ -49,7 +49,7 @@ python train.py --mode fixed --algorithm td3
 python train.py --mode multi --algorithm sac
 ```
 
-#### 커리큘럼 학습 (2nd Phase 신규)
+#### 커리큘럼 학습
 ```bash
 # Stage 3부터 학습
 python train_curriculum.py —start_stage 3 —end_stage 6
